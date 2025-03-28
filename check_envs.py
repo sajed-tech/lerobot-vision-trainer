@@ -1,0 +1,1 @@
+import gymnasium; import gym; import gym_aloha; print("Gym envs:", [e for e in gym.envs.registry.keys() if "aloha" in e.lower()]); print("Gymnasium envs:", [e for e in gymnasium.envs.registry.keys() if "aloha" in e.lower()])

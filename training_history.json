@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "date": "2025-03-24T10:24:36.189620",
+    "model_name": "robot_policy_2025_03_24_14_24_06",
+    "objects_actions": {
+      "apples": [
+        "pick up",
+        "bite",
+        "place",
+        "roll"
+      ],
+      "apricots/peaches": [
+        "pick up",
+        "eat",
+        "place",
+        "inspect"
+      ],
+      "bananas": [
+        "peel",
+        "pick up",
+        "eat",
+        "place",
+        "break off"
+      ],
+      "bowl": [
+        "lift",
+        "place",
+        "empty",
+        "fill",
+        "inspect contents"
+      ],
+      "flowerpots": [
+        "lift (with caution - potentially heavy)",
+        "water (if accessible)",
+        "inspect plant",
+        "adjust position (if possible)"
+      ],
+      "plants": [
+        "inspect",
+        "water (if accessible)"
+      ],
+      "window": [
+        "look through",
+        "tap"
+      ],
+      "wooden surface": [
+        "place object on",
+        "tap",
+        "dust off"
+      ]
+    },
+    "selected_datasets": [
+      "lerobot/berkeley_rpt"
+    ],
+    "parameters": {
+      "sample_limit": 10000,
+      "num_epochs": 50,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "result": {
+      "success": true,
+      "model_path": "models/robot_policy_2025_03_24_14_24_06.pt",
+      "selected_datasets": [
+        "lerobot/berkeley_rpt"
+      ],
+      "trained_objects_actions": {
+        "apples": [
+          "pick up",
+          "bite",
+          "place",
+          "roll"
+        ],
+        "apricots/peaches": [
+          "pick up",
+          "eat",
+          "place",
+          "inspect"
+        ],
+        "bananas": [
+          "peel",
+          "pick up",
+          "eat",
+          "place",
+          "break off"
+        ],
+        "bowl": [
+          "lift",
+          "place",
+          "empty",
+          "fill",
+          "inspect contents"
+        ],
+        "flowerpots": [
+          "lift (with caution - potentially heavy)",
+          "water (if accessible)",
+          "inspect plant",
+          "adjust position (if possible)"
+        ],
+        "plants": [
+          "inspect",
+          "water (if accessible)"
+        ],
+        "window": [
+          "look through",
+          "tap"
+        ],
+        "wooden surface": [
+          "place object on",
+          "tap",
+          "dust off"
+        ]
+      },
+      "training_parameters": {
+        "num_epochs": 50,
+        "batch_size": 32,
+        "learning_rate": 0.0001
+      }
+    }
+  }
+]
