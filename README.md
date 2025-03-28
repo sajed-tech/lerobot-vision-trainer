@@ -1,4 +1,4 @@
-# Automated Imitation Learning Pipeline
+# Lerobot Vision Trainer
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
